@@ -16,7 +16,7 @@
 
 # 👨‍💻 Sobre mim
 
-Olá! Sou **Levi Soares**, **estudante de Engenharia de Software** e desenvolvedor focado em **Backend com Java**.
+Olá! Sou **Levi Soares**, **estudante de Engenharia de Software** e desenvolvedor focado em **Backend com Java**, com certificação no **ITA (Instituto Tecnologico de Aeronautica)**.
 
 Sou apaixonado por tecnologia e pelo desenvolvimento de soluções digitais eficientes, buscando criar sistemas seguros, organizados e preparados para necessidades reais.
 
@@ -102,45 +102,7 @@ Conhecimentos abordados:
 
 ---
 
-# 🚀 Projetos
 
-## 🚗 Sistema de Estacionamento
-
-API backend desenvolvida com **Java e Spring Boot** para gerenciamento de estacionamento.
-
-Funcionalidades:
-
-- Cadastro e gerenciamento de usuários
-- Integração com banco de dados
-- Estrutura organizada em camadas
-- Desenvolvimento seguindo padrões backend
-
-
-Tecnologias:
-
-`Java` `Spring Boot` `PostgreSQL` `JPA`
-
-
----
-
-## 👤 Sistema de Usuários
-
-Sistema de cadastro e gerenciamento de usuários com autenticação.
-
-Funcionalidades:
-
-- CRUD de usuários
-- Segurança de aplicações
-- Organização arquitetural
-- Controle de acesso
-
-
-Tecnologias:
-
-`Java` `Spring Boot` `Spring Security`
-
-
----
 
 # 📊 Estatísticas do GitHub
 
