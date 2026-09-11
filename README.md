@@ -43,20 +43,6 @@ Conhecimentos desenvolvidos:
 - Desenvolvimento Backend
 - Boas práticas de programação
 
-
-## 🏛️ Desenvolvimento Avançado em Java — ITA
-
-Curso realizado pelo **Instituto Tecnológico de Aeronáutica (ITA)** com foco em desenvolvimento avançado utilizando Java.
-
-Conhecimentos abordados:
-
-- Programação avançada em Java
-- Desenvolvimento orientado a objetos
-- Estruturação de aplicações
-- Boas práticas de desenvolvimento
-- Construção de soluções robustas
-
-
 ---
 
 # 🛠️ Tecnologias e Ferramentas
