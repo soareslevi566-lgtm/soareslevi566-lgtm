@@ -1,141 +1,121 @@
-# 👨‍💻 Levi Soares
+<div align="center">
 
-## 🚀 Desenvolvedor Java Backend
+# `Levi Soares`
 
-> Construindo soluções backend seguras, escaláveis e eficientes através da tecnologia.
+### Estudante de Engenharia de Software — back-end Java 
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Java-Backend-orange?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/Spring%20Boot-Framework-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
-  <img src="https://img.shields.io/badge/API-REST-blue?style=for-the-badge&logo=api" />
-  <img src="https://img.shields.io/badge/Software%20Engineering-Student-purple?style=for-the-badge" />
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=2F81F7&center=true&vCenter=true&width=600&lines=Construindo+sistemas+robustos+de+ponta+a+ponta;Java+%2B+Spring+Boot+no+backend;Angular+%2B+TypeScript+no+frontend;Arquitetura%2C+performance+e+c%C3%B3digo+limpo" alt="Typing SVG" />
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/levi-soares-2350983a8/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:soareslevi566@gmail.com)
+[![Portfólio](https://img.shields.io/badge/Portfólio-000000?style=flat-square&logo=vercel&logoColor=white)](https://github.com/soareslevi566-lgtm)
 
----
+</div>
 
-# 👨‍💻 Sobre mim
+<br>
 
-Olá! Sou **Levi Soares**, **estudante de Engenharia de Software** e desenvolvedor focado em **Backend com Java**, com certificação no **ITA (Instituto Tecnologico de Aeronautica)**.
+## Perfil
 
-Sou apaixonado por tecnologia e pelo desenvolvimento de soluções digitais eficientes, buscando criar sistemas seguros, organizados e preparados para necessidades reais.
+Estudante de engenharia de software com conhecimento no desenvolvimento de aplicações web completas, da modelagem de dados à experiência de interface. Atuo com foco em arquitetura de software bem estruturada, código sustentável e entrega orientada a valor de negócio.
 
-Tenho foco em desenvolvimento backend, criação de **APIs REST**, arquitetura de aplicações, integração com bancos de dados e aplicação de boas práticas de programação.
+`Atuo com desenvolvimento back-end, com conhecimentos básicos de front-end para entender melhor a experiência final e entregar integrações mais eficientes. Tenho foco em criar APIs, integrar sistemas e estruturar serviços confiáveis, com soluções claras e fáceis de manter.`
 
-Estou constantemente evoluindo meus conhecimentos em Engenharia de Software, buscando aprimorar minhas habilidades técnicas e construir soluções escaláveis através da tecnologia.
+<br>
 
+## Stack Técnica
 
----
+<table>
+<tr>
+<td valign="top" width="50%">
 
-# 🎓 Formação e Capacitação
+**Backend**
 
-## Engenharia de Software
+| Tecnologia | Aplicação |
+|---|---|
+| Java | Linguagem principal de desenvolvimento |
+| Spring Boot | Construção de APIs REST e microsserviços |
+| MySQL | Modelagem relacional e persistência de dados |
+| Docker | Containerização e padronização de ambientes |
 
-📚 **Estudante de Engenharia de Software**
+</td>
+<td valign="top" width="50%">
 
-Conhecimentos desenvolvidos:
+**Frontend**
 
-- Desenvolvimento de Software
-- Programação Orientada a Objetos
-- Engenharia de requisitos
-- Arquitetura de sistemas
-- Banco de dados
-- Desenvolvimento Backend
-- Boas práticas de programação
+| Tecnologia | Aplicação |
+|---|---|
+| Angular | Desenvolvimento de SPAs escaláveis |
+| TypeScript | Tipagem estática e manutenibilidade |
+| JavaScript | Lógica de interface e integrações |
+| HTML / CSS | Estruturação e estilização semântica |
 
----
+</td>
+</tr>
+</table>
 
-# 🛠️ Tecnologias e Ferramentas
+<br>
 
-## Backend
+## Abordagem de Arquitetura
 
-<p>
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-<img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
-<img src="https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white"/>
-<img src="https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white"/>
-<img src="https://img.shields.io/badge/JPA-007396?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/REST%20API-02569B?style=for-the-badge"/>
-</p>
+Fluxo típico adotado nos projetos em que atuo, da requisição do cliente à persistência dos dados:
 
+```mermaid
+flowchart LR
+    A["Angular\nInterface"] -->|HTTP / REST| B["Spring Boot\nAPI"]
+    B --> C["Camada de Serviço\nRegras de Negócio"]
+    C --> D["Camada de Repositório\nJPA / Hibernate"]
+    D --> E[("MySQL")]
+    B -.->|Empacotado em| F["Docker"]
+    F -.->|Deploy| G["Ambiente de Produção"]
+```
 
-## Banco de Dados
+<br>
 
-<p>
-<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-</p>
+## Princípios de Engenharia
 
+Diretrizes que guiam minhas decisões técnicas no dia a dia:
 
-## Ferramentas
+- **Separação de responsabilidades** — camadas de controller, service e repository bem definidas, evitando acoplamento desnecessário.
+- **Código testável** — cobertura de testes unitários e de integração como parte do ciclo de desenvolvimento, não como etapa opcional.
+- **Consistência de ambiente** — uso de Docker para eliminar divergências entre desenvolvimento, homologação e produção.
+- **API previsível** — contratos REST claros, versionados e documentados, pensando em quem consome antes de quem implementa.
+- **Interface como extensão do backend** — componentes Angular desenhados para refletir o real estado dos dados, com tratamento explícito de erros e estados de carregamento.
 
-<p>
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
-<img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-</p>
+<br>
 
+## Projetos em Destaque
 
-## Frontend
+| Projeto | Descrição | Stack | Link |
+|---|---|---|---|
+| `Biblioteca` | `Gerenciamento de emprestimos e usuarios`| [https://github.com/soareslevi566-lgtm/biblioteca](#) |
+| `Agendador de horarios` | `Sistema em java para realizar agendamentos de facil adaptação a outros projetos` | [https://github.com/soareslevi566-lgtm/Agendador-horarios](#) |
+| `Task tarefas` | `Sistema para registrar tarefas e organiza-las` | [https://github.com/soareslevi566-lgtm/API-tarefas-Java](#) |
 
-<p>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-</p>
+<br>
 
+## Indicadores
 
----
+<div align="center">
 
+<img src="https://github-readme-stats.vercel.app/api?username=seu-usuario&show_icons=true&theme=default&hide_border=true&count_private=true" alt="GitHub Stats" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=seu-usuario&layout=compact&hide_border=true" alt="Top Languages" height="165"/>
 
+</div>
 
-# 📊 Estatísticas do GitHub
+<br>
 
-<p align="center">
+## Contato
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=soareslevi566-lgtm&show_icons=true&theme=tokyonight"/>
+Aberto a oportunidades de colaboração, discussões técnicas e projetos que envolvam o desenvolvimento de  arquitetura escalavél.
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=soareslevi566-lgtm&layout=compact&theme=tokyonight"/>
+<div align="center">
 
-</p>
+[![LinkedIn](https://img.shields.io/badge/Vamos%20conversar%20no%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/levi-soares-2350983a8/)
 
+</div>
 
-<p align="center">
+<br>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=SEU_USUARIO&theme=tokyonight"/>
-
-</p>
-
-
----
-
-# 🎯 Atualmente estudando
-
-- Engenharia de Software
-- Arquitetura Backend
-- Desenvolvimento de APIs REST
-- Segurança de aplicações
-- Sistemas escaláveis
-- Java avançado
-- Boas práticas de programação
-
-
----
-
-# 📫 Entre em contato
-
-💼 LinkedIn: **www.linkedin.com/in/levi-soares-2350983a8**
-
-🐙 GitHub: **https://github.com/soareslevi566-lgtm**
-
-📧 Email: **soareslevi566@gmail.com**
-
-
----
-
-<p align="center">
-
-⭐ Desenvolvendo soluções, evoluindo conhecimentos e construindo uma carreira em tecnologia.
-
-</p>
+<div align="center">
+<sub>Última atualização: 2026</sub>
+</div>
